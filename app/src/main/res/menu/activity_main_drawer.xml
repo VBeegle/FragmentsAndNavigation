@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mesagez"
+            android:icon="@drawable/envelope"
+            android:title="@string/menu_mesagez" />
+        <item
+            android:id="@+id/nav_draftz"
+            android:icon="@drawable/pencil"
+            android:title="@string/menu_draftz" />
+        <item
+            android:id="@+id/nav_sentmesagez"
+            android:icon="@drawable/send"
+            android:title="@string/menu_sent_mesagez" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/rubbish"
+            android:title="@string/menu_trash" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_halp"
+                android:icon="@drawable/question"
+                android:title="@string/menu_halp" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/send"
+                android:title="@string/menu_feedback" />
+        </menu>
+    </item>
+
+</menu>
